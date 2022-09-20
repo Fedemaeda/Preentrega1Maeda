@@ -9,12 +9,12 @@ function App() {
   return (
     <>
     <NavBar/>
-    <ItemListContainer greeting={'¡Saludos!'}/>
+    <ItemListContainer greeting={'Saludos'}/>
     <h1 className="tet-3xl font-bold">
       Bienvenidos a MUSHI3D
     </h1>
     <br></br>
-    <h3 className="text-3xl font-bold  underline">
+    <h3 className="text-3xl font-bold underline">
       DESTACADOS
     </h3>
     <br></br>
