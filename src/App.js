@@ -1,24 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
+import ItemListContainer from './components/ItemListContainer';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <NavBar/>
+    <ItemListContainer greeting={'¡Saludos!'}/>
+    <h1 className="tet-3xl font-bold">
+      Bienvenidos a MUSHI3D
+    </h1>
+    <br></br>
+    <h3 className="text-3xl font-bold  underline">
+      DESTACADOS
+    </h3>
+    <br></br>
+    <li>MANGAS</li>
+    <li>DISEÑOS 3D</li>
+    <br></br>
+    <strong>Adiós Mundo</strong>
+    <Footer/>
+    </>
   );
 }
 
